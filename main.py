@@ -1,3 +1,4 @@
+import constants
 import discord
 import random
 import os
@@ -5,8 +6,6 @@ import os
 from click import command
 from discord.ext import commands
 from dotenv import load_dotenv
-
-import constants
 
 load_dotenv()
 

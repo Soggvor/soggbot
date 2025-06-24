@@ -6,7 +6,6 @@ from discord.ext import commands
 from dotenv import load_dotenv
 load_dotenv()
 
-
 class MessageEvents(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
